@@ -10,9 +10,3 @@ keywords = ["summary", "outline", "table of contents", "book", "novel"]
 categories = ["layout"]
 disciplines = ["literature"]
 exclude = [".gitignore"]
-
-
-[template]
-path = "template"
-entrypoint = "main.typ"
-thumbnail = "thumbnail.png"
