@@ -1,9 +1,13 @@
 #import "../src/outline-summaryst.typ": style-outline, make-heading
 
+#set par(justify: true)
+#show: style-outline.with(outline-title: "Table of Contents")
 
-#show outline: style-outline.with(outline-title: "Table of Contents")
 
+
+#set page(numbering: "1/1")
 #outline()
+
 
 
 #make-heading("Part One", "This is the summary for part one")

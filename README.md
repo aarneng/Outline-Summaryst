@@ -17,12 +17,12 @@ Because of the way the project is implemented, only the headings created with th
 
 ## Example Usage:
 ```
-#import "@preview/outline-summaryst:0.1.0": style-outline, make-heading
+#set par(justify: true)
+#show: style-outline.with(outline-title: "Table of Contents")
 
 
-// you can set `outline-title: none` in order not to display any title
-#show outline: style-outline.with(outline-title: "Table of Contents")
 
+#set page(numbering: "1/1")
 #outline()
 
 
@@ -47,6 +47,8 @@ Because of the way the project is implemented, only the headings created with th
 
 ## Known limitations
 - Currently, we do not provide a way for styling the table of contents or headings
+- Page numbering is a bit buggy
+- long summaries (>= 1 page long) are not supported
 
 
 ## License:
